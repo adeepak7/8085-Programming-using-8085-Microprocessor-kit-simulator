@@ -1,0 +1,40 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 3000h
+\par MOV L A
+\par MVI H 10h
+\par MOV A M
+\par STA 3001h
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 1000| 00
+2| 1001| 01
+3| 1002| 04
+4| 1003| 09
+5| 1004| 16
+6| 1005| 25
+7| 1006| 36
+8| 1007| 49
+9| 1008| 64
+10| 1009| 81
+11| 3000| 04
+12| 3001| 16
+<End UserData>
+20
+1| 8000| 3A
+2| 8001| 00
+3| 8002| 30
+4| 8003| 6F
+5| 8004| 26
+6| 8005| 10
+7| 8006| 7E
+8| 8007| 32
+9| 8008| 01
+10| 8009| 30
+11| 800A| 76
+<End HexData>
+
+<End Comment>

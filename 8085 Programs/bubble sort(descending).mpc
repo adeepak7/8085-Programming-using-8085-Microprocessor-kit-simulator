@@ -1,0 +1,26 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 MVI D 06h
+\par MVI C 05h
+\par  
+\par LOOP1: MVI C 05h
+\par LXI H 1000h
+\par LOOP2: MOV A M
+\par INX H
+\par CMP M
+\par JNC DO NOT SWAP\cf0 
+\par }
+<End Codes>
+20
+1| 0000| 00
+2| 0001| 01
+3| 0002| 02
+4| 0003| 03
+5| 0004| 04
+6| 0005| 05
+<End UserData>
+20
+<End HexData>
+
+<End Comment>

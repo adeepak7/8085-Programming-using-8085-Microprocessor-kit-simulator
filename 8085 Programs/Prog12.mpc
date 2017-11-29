@@ -1,0 +1,70 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LXI H C250h
+\par LXI D C300h
+\par MVI C 15h
+\par UP: MOV A M
+\par STAX D
+\par INX H
+\par INX D
+\par DCR C
+\par JNZ UP
+\par HLT\cf0 
+\par }
+<End Codes>
+37
+1| C250| 01
+2| C251| 02
+3| C252| 03
+4| C253| 04
+5| C254| 05
+6| C255| 06
+7| C256| 07
+8| C257| 08
+9| C258| 09
+10| C259| 10
+11| C25A| 11
+12| C25B| 12
+13| C25C| 13
+14| C25D| 14
+15| C25E| 15
+16| C25F| 16
+17| C300| 01
+18| C301| 02
+19| C302| 03
+20| C303| 04
+21| C304| 05
+22| C305| 06
+23| C306| 07
+24| C307| 08
+25| C308| 09
+26| C309| 10
+27| C30A| 11
+28| C30B| 12
+29| C30C| 13
+30| C30D| 14
+31| C30E| 15
+32| C30F| 16
+<End UserData>
+20
+1| 8000| 21
+2| 8001| 50
+3| 8002| C2
+4| 8003| 11
+5| 8004| 00
+6| 8005| C3
+7| 8006| 0E
+8| 8007| 15
+9| 8008| 7E
+10| 8009| 12
+11| 800A| 23
+12| 800B| 13
+13| 800C| 0D
+14| 800D| C2
+15| 800E| 08
+16| 800F| 80
+17| 8010| 76
+<End HexData>
+
+<End Comment>

@@ -1,0 +1,59 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 1000h
+\par MOV B A
+\par MVI D 00h
+\par 
+\par MVI C 08h
+\par MOV A B
+\par STC
+\par CMC
+\par 
+\par LOOP: RAL
+\par JNC DOWN
+\par INR D
+\par CMC
+\par DOWN: DCR C
+\par JNZ LOOP
+\par MOV A D
+\par STA 1001h
+\par 
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 1000| 08
+2| 1001| 01
+3| 1002| 00
+<End UserData>
+50
+1| 8000| 3A
+2| 8001| 00
+3| 8002| 10
+4| 8003| 47
+5| 8004| 16
+6| 8005| 00
+7| 8006| 0E
+8| 8007| 08
+9| 8008| 78
+10| 8009| 37
+11| 800A| 3F
+12| 800B| 17
+13| 800C| D2
+14| 800D| 11
+15| 800E| 80
+16| 800F| 14
+17| 8010| 3F
+18| 8011| 0D
+19| 8012| C2
+20| 8013| 0B
+21| 8014| 80
+22| 8015| 7A
+23| 8016| 32
+24| 8017| 01
+25| 8018| 10
+26| 8019| 76
+<End HexData>
+
+<End Comment>

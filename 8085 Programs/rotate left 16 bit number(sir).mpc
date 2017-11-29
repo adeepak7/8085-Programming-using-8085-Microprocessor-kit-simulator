@@ -1,0 +1,27 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LHLD C201h
+\par DAD H
+\par SHLD C203h
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| C201| 04
+2| C202| 05
+3| C203| 08
+4| C204| 0A
+<End UserData>
+20
+1| 8000| 2A
+2| 8001| 01
+3| 8002| C2
+4| 8003| 29
+5| 8004| 22
+6| 8005| 03
+7| 8006| C2
+8| 8007| 76
+<End HexData>
+
+<End Comment>
